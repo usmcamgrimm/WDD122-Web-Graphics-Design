@@ -9,15 +9,19 @@ body {
 }
 h1 {
 	font-family: Condiment;
+	font-size: 2.2em;
 	color: #fff;
-	font-style: underline;
-	text-shadow: 1px 1px 4px 2px #000;
+	text-shadow: 4px 4px 12px #000;
 	text-align: center;
+}
+hr {
+	color: #c0c0c0;
+	width: 50%;
+}
+p {
+	font-size: 16px;
 }
 .mainFooter {
 	font-size:	 15px;
 	color:   #606;
-}
-p {
-	font-size: 16px;
 }
