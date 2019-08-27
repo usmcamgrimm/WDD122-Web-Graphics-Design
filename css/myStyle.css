@@ -9,19 +9,54 @@ body {
 }
 h1 {
 	font-family: Condiment;
-	font-size: 2.2em;
+	font-size: 2.5em;
 	color: #fff;
 	text-shadow: 4px 4px 12px #000;
 	text-align: center;
+	padding-bottom: 0px;
+	padding-top: 10px;
 }
 hr {
+	padding-top: 0px;
 	color: #c0c0c0;
 	width: 50%;
 }
 p {
 	font-size: 16px;
 }
+#container {
+	display: flex;
+	height: 300px;
+	justify-content: center;
+	align-items: center;
+}
+#container h3 {
+	font-family: Ubuntu;
+	font-size: 22px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#container h3 a {
+	color:#005F03;
+	text-decoration: none;
+}
+#container h3 a:hover {
+	color: #fff;
+	text-shadow: 3px 3px 6px #000;
+}
+#activityBox {
+	height: 50%;
+	width: 25%;
+}
+#labBox {
+	height: 50%;
+	width: 25%;
+}
 .mainFooter {
 	font-size:	 15px;
 	color:   #606;
+	text-align: center;
 }
