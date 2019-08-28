@@ -88,3 +88,24 @@ p {
 	position: relative;
 	padding-top: 2.5em;
 }
+/* Accordion Styling */
+.toggle {
+	font-family: 'Red Hat Display';
+	font-size: 22px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #ffffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.toggle:hover {
+	padding: 0.2em;
+	color: #4caf50;
+}
+li {
+	list-style: none;
+}
+.inner {
+	display: none;
+}
