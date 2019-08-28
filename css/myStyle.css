@@ -1,6 +1,6 @@
 /* styles for my website*/
 body {
-	background-color: #002c5f;
+	background-color: #1976d2;
 }
 #wrapper {
 	font-family:  Ubuntu, sans-serif;
@@ -10,15 +10,13 @@ body {
 h1 {
 	font-family: Condiment;
 	font-size: 2.5em;
-	color: #fff;
-	text-shadow: 4px 4px 12px #000;
+	color: #212121;
 	text-align: center;
 	padding-bottom: 0px;
 	padding-top: 10px;
 }
 hr {
-	padding-top: 0px;
-	color: #c0c0c0;
+	color: #bdbdbd;
 	width: 50%;
 }
 p {
@@ -40,11 +38,11 @@ p {
 	padding-right: 10px;
 }
 #container h3 a {
-	color:#005F03;
+	color:#ffffff;
 	text-decoration: none;
 }
 #container h3 a:hover {
-	color: #fff;
+	color: #4caf50;
 	text-shadow: 3px 3px 6px #000;
 }
 #activityBox {
@@ -60,12 +58,25 @@ p {
 	width: 50%;
 	padding: 1.5em;
 	margin: 0 auto;
+	margin-top: 2em;
 	box-shadow: 0px 2px 6px #000;
 }
 #quoteContainer p {
 	font-family: 'Red Hat Display';
 	font-size: 20px;
 }
+#quoteContainer:hover {
+	animation-name: fill-color;
+	animation-duration: 500ms;
+	animation-fill-mode: forwards;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+}
+@keyframes fill-color (
+	100% {
+		background-color: #757575;
+	}
+)
 .mainFooter {
 	font-family: 'Red Hat Display';
 	font-size:	 18px;
