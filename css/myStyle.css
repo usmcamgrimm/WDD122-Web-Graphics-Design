@@ -20,6 +20,7 @@ hr {
 	width: 50%;
 }
 p {
+	color: #212121;
 	font-size: 16px;
 }
 #container {
@@ -65,18 +66,21 @@ p {
 	font-family: 'Red Hat Display';
 	font-size: 20px;
 }
+#quoteCOntainer p:hover, #quoteContainer p:active {
+	color: #2196f3;
+}
 #quoteContainer:hover {
 	animation-name: fill-color;
-	animation-duration: 500ms;
+	animation-duration: 300ms;
 	animation-fill-mode: forwards;
 	animation-iteration-count: 1;
 	animation-timing-function: ease-in;
 }
-@keyframes fill-color (
+@keyframes fill-color {
 	100% {
-		background-color: #757575;
+		background-color: #bdbdbd;
 	}
-)
+}
 .mainFooter {
 	font-family: 'Red Hat Display';
 	font-size:	 18px;
