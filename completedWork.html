@@ -15,7 +15,7 @@
 		<!--example of an external style sheet-->
 		<link rel = "stylesheet" href = "css/myStyle.css">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Condiment|Merriweather+Sans|Red+Hat+Display&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Condiment|Merriweather+Sans|Red+Hat+Display&display=swap" rel="stylesheet">
 
         <style>
             h1 {
@@ -27,26 +27,38 @@
         </style>
 	</head>
 	<body>
-		<div id="wrapper">
+		<header>
 		<h1>Completed Works</h1>
-		<!--an example of an inline style-->
-		<h2 style="font-family:'Red Hat Display';font-size:22px;color:#212121;text-align:center;"><a href="index.html">Return</a></h2>
+		</header>
+
+		<h2 style="font-family:'Red Hat Display';font-size:18px;color:#212121;text-align:center;"><a href="index.html">Return</a></h2>
 		
-		<!-- List of links to the Guided Activity assignments -->
-		<div id="activities">
-			<div id="activityBox">
-				<h3><a href="completedWork.html#activities">Activities</a></h3>
+		<!-- List of links to the Guided Activity and Lab assignments -->
+		<button class="accordion">Guided Activities</button>
+			<div class="workList" id="activities">
+				<ul>
+					<li><p><a href="#">Guided Activity 1</a></p></li>
+					<li><p><a href="#">Guided Activity 2</a></p></li>
+					<li><p><a href="#">Guided Activity 3</a></p></li>
+					<li><p><a href="#">Guided Activity 4</a></p></li>
+					<li><p><a href="#">Guided Activity 5</a></p></li>
+					<li><p><a href="#">Guided Activity 6</a></p></li>
+				</ul>
 			</div>
-			<div id="labBox">
-				<h3><a href="completedWork.html#labs">Labs</a></h3>
+		<button class="accordion">Labs</button>
+			<div class="workList" id="labs">
+				<ul>
+					<li><p><a href="#">Lab 1</a></p></li>
+					<li><p><a href="#">Lab 2</a></p></li>
+					<li><p><a href="#">Lab 3</a></p></li>
+					<li><p><a href="#">Lab 4</a></p></li>
+					<li><p><a href="#">Lab 5</a></p></li>
+					<li><p><a href="#">Lab 6</a></p></li>
+				</ul>
 			</div>
-		</div>
-
-		<!-- List of links to the lab assignments -->
-		<div id="labs">
-		</div>
-
 		<!-- JavaScript -->
+		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+		<script src="js/work.js"></script>
 
 		<footer class="mainFooter">
 			<p style="font-weight:bold"><a href="mailto:usmcamgrimm@gmail.com?Subject=Nice%20Work">Adrian Grimm</a></p>
@@ -56,6 +68,5 @@
 				<a href="https://www.linkedin.com/in/adrian-grimm-6a164a18/" target="_blank"><i class="fab fa-linkedin" style="font-size:32px;color:#ffffff"></a></i>
 			  </div>		
 		</footer>
-		</div>
 	</body>
 </html>
