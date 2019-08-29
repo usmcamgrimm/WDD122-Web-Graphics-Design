@@ -25,7 +25,7 @@ p {
 }
 #container {
 	display: flex;
-	height: 200px;
+	height: 150px;
 	justify-content: center;
 	align-items: center;
 }
@@ -48,11 +48,11 @@ p {
 }
 #activityBox {
 	height: 50%;
-	width: 50%;
+	width: 25%;
 }
 #labBox {
 	height: 50%;
-	width: 50%;
+	width: 25%;
 }
 #quoteContainer {
 	text-align: center;
@@ -71,7 +71,7 @@ p {
 }
 #quoteContainer:hover {
 	animation-name: fill-color;
-	animation-duration: 300ms;
+	animation-duration: 400ms;
 	animation-fill-mode: forwards;
 	animation-iteration-count: 1;
 	animation-timing-function: ease-in;
@@ -88,25 +88,7 @@ p {
 	position: relative;
 	padding-top: 2.5em;
 }
-/* Accordion Styling */
-.toggle {
-	font-family: 'Red Hat Display';
-	font-size: 22px;
-	font-weight: bold;
+.mainFooter a {
 	text-decoration: none;
-	color: #ffffff;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-.toggle:hover {
-	padding: 0.2em;
-	color: #4caf50;
-}
-li {
-	list-style: none;
-	text-decoration: none;
-}
-.inner {
-	display: none;
+	color: #212121;
 }
