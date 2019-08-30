@@ -98,29 +98,3 @@ p {
 	text-decoration: none;
 	color: #212121;
 }
-/* Accordion Styling */
-.accordion {
-	display: flex;
-    flex-direction: column;
-	color: #ffffff;
-	background-color: #1976d2;
-    font-weight: bold;
-    padding-bottom: 5px;
-    width: 100%;
-    text-align: center;
-    border: none;
-    outline: none;
-	transition: 0.4s;
-}
-button {
-    font-family: 'Red Hat Display';
-    font-size: 22px;
-    color: #212121;
-}
-.accordion:hover {
-    color: #4caf50;
-}
-.accordion a, li {
-	list-style: none;
-	text-decoration: none;
-}
