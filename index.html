@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <!--
-	WDD122 Web Design Graphics
+	WDD122 Web Graphics Design
 	Landing Page
 	Filename: index.html
 	Author:	Adrian Grimm
-	Date:	8/29/2019		
+	Date:	8/31/2019		
 -->
 	<head>
 		<meta charset="UTF-8">
 		<!--the user's visible area of a webpage-->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>GRIMM | WDD122 Landing Page</title>
-		<!--example of an external style sheet-->
+		<title>GRIMM | Landing Page</title>
+		<!-- external style sheets -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 		<link rel = "stylesheet" href = "css/myStyle.css">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 		<link href="https://fonts.googleapis.com/css?family=Condiment|Merriweather+Sans|Red+Hat+Display&display=swap" rel="stylesheet">
+		<link rel="icon" href="images/tabHome.png" type="image/png" sizes="24x24">
 
-		<!--an example of using an embedded styles-->
+		<!-- embedded styles -->
 		<style>
 		p {
 			text-align: center;
@@ -26,11 +28,13 @@
 		</style>
 	</head>
 	<body>
-		<div id = "wrapper">
-		<h1>Adrian Grimm</h1>
+		<div id="wrapper">
+			<div class="page-header">
+				<h1>Adrian Grimm</h1>
+			</div>
 		<hr>
-		<!--an example of an inline style-->
-		<h2 style="font-family:'Red Hat Display';font-size:24px;color:#212121;text-align:center;">My Progress</h2>
+
+		<h2>My Progress</h2>
 		<p>Select a category below to see my completed work!</p>
 		
 		<!--create a list of assignments that will be completed in this course-->
@@ -42,10 +46,110 @@
 				<h3><a href="completedWork.html#labs">Labs</a></h3>
 			</div>
 		</div>
+		<hr>
+
+		<!-- Link to samples -->
+		<div id="sampleWork">
+			<h2 onclick="this.innerHTML='Wallpapers and Backgrounds I Made'" style="cursor:crosshair;">Sample Images</h2>
+			<p>I made these over the past few years for the Android community and highlight them here to show my Photoshop experience.</p>
+		</div>
+		<div class="container center" style="padding-top:5%">
+			<div class="row">
+				<div class="col-md-3">
+					<div class="thumbnail">
+						<a href="images/sampleWalls/Berserk3.JPG">
+							<img src="images/sampleWalls/Berserk3.JPG" class="rounded-circle img-fluid" height="200px" width="200px" alt="berserk wallpaper">
+						</a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="thumbnail">
+						<a href="images/sampleWalls/Berserk4.JPG">
+							<img src="images/sampleWalls/Berserk4.JPG" class="rounded-circle img-fluid" height="200" width="200" alt="berserk wallpaper based on android kit kat">
+						</a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="thumbnail">
+						<a href="images/sampleWalls/Vanir.JPG">
+							<img src="images/sampleWalls/Vanir.JPG" class="rounded-circle img-fluid" height="200" width="200" alt="Vanir lightning bolt wallpaper">
+						</a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="thumbnail">
+						<a href="images/sampleWalls/Vanir15.JPG">
+							<img src="images/sampleWalls/Vanir15.JPG" class="rounded-circle img-fluid" height="200" width="200" alt="vanir wallpaper triple horn of Odin">
+						</a>
+					</div>
+				</div>
+			</div>
+			<br>
+			<div class="row">
+				<div class="col-md-3">
+					<div class="thumbnail">
+						<a href="images/sampleWalls/USMC.JPG">
+							<img src="images/sampleWalls/USMC.JPG" class="rounded-circle img-fluid" height="200" width="200" alt="Eagle Globe and Anchor wallpaper">
+						</a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="thumbnail">
+						<a href="images/sampleWalls/Exodus18.JPG">
+							<img src="images/sampleWalls/Exodus18.JPG" class="rounded-circle img-fluid" height="200" width="200" alt="exodus wall colorful">
+						</a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="thumbnail">
+						<a href="images/sampleWalls/Marines">
+							<img src="images/sampleWalls/Marines.JPG" class="rounded-circle img-fluid" height="200" width="200" alt="Marine Sergeant chevron wallpaper">
+						</a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="thumbnail">
+						<a href="images/sampleWalls/Exodus28.JPG">
+							<img src="images/sampleWalls/Exodus28.JPG" class="rounded-circle img-fluid" height="200" width="200" alt="Exodus logo wallpaper">
+						</a>
+					</div>
+				</div>
+			</div>
+			<br>
+			<div class="row">
+				<div class="col-md-3">
+					<div class="thumbnail">
+						<a href="images/sampleWalls/Exodus44_2.JPG">
+							<img src="images/sampleWalls/Exodus44_2.JPG" class="rounded-circle img-fluid" height="200" width="200" alt="two tone Exodus wallpaper">
+						</a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="thumbnail">
+						<a href="images/sampleWalls/Exodus77.JPG">
+							<img src="images/sampleWalls/Exodus77.JPG" class="rounded-circle img-fluid" height="200" width="200" alt="Exodus steel logo">
+						</a>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="thumbnail">
+						<a href="images/sampleWalls/Exodus88.JPG">
+							<img src="images/sampleWalls/Exodus88.JPG" class="rounded-circle img-fluid" height="200" width="200" alt="Exodus classic wallpaper">
+						</a>
+					</div>
+				</div><div class="col-md-3">
+					<div class="thumbnail">
+						<a href="images/sampleWalls/Unholy15.JPG">
+							<img src="images/sampleWalls/Unholy15.JPG" class="rounded-circle img-fluid" height="200" width="200" alt="UnholyDevs logo wallpaper">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
 
 		<!-- Design quote -->
 		<div id="quoteContainer">
-			<p>Thinking about design is hard, but not thinking about it can be disastrous"</p>
+			<p>"Thinking about design is hard, but not thinking about it can be disastrous"</p>
 			<p style="padding-left:5px;">-Ralph Caplan</p>
 		</div>
 
