@@ -1,0 +1,25 @@
+/* Styling for the basic nav bar */
+#navContainer {
+    position: relative;
+}
+.nav {
+    display: block;
+    font-family: 'Red Hat Display';
+    font-size: .8em;
+    margin: 0;
+    float: right;
+}
+.navMenu li {
+    display: inline-block;
+    list-style: none;
+}
+.nav li a {
+    display: inline-block;
+    color: #212121;
+    padding: 10px 5px;
+    text-decoration: none;
+}
+.nav li a:hover {
+    color: #4caf50;
+    text-shadow: 0 1px 3px #000;
+}
