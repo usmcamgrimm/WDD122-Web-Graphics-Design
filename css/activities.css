@@ -5,12 +5,16 @@ body {
 .container {
     width: 100%;
     display: grid;
-    grid-template-columns: 80px 80px 80px 80px 80px 80px;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px;
     grid-template-rows: 50px 50px 50px 50px 50px 50px;
 }
-
-h1 {
-    font-family: Condiment;;
-    font-size: 22px;
+.header {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    font-family: Condiment;
+    font-size: 1.4em;
     color: #212121;
+    text-align: center;
 }
