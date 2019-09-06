@@ -5,9 +5,10 @@
 .nav {
     display: block;
     font-family: 'Red Hat Display';
-    font-size: .8em;
+    font-size: 1em;
     margin: 0;
     float: right;
+    list-style: none;
 }
 .navMenu li {
     display: inline-block;
@@ -15,7 +16,7 @@
 }
 .nav li a {
     display: inline-block;
-    color: #212121;
+    color: #fff;
     padding: 10px 5px;
     text-decoration: none;
 }

@@ -55,7 +55,11 @@ hr {
 	justify-content: space-around;
 	align-items: center;
 }
-#container h3 a {
+#container h3 a, a:visited {
+	color:#ffffff;
+	text-decoration: none;
+}
+#container h3 a:visited {
 	color:#ffffff;
 	text-decoration: none;
 }
