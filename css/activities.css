@@ -2,32 +2,23 @@
 body {
     background-color: #1976d2;
 }
-.container {
-    width: 100%;
-    display: grid;
-    margin: 0 auto;
-    text-align:: center;
-    grid-template-columns: 100px 100px 100px 100px 100px 100px;
-    grid-template-rows: 50px 50px 100px 100px 100px 100px;
-}
-.header {
-    grid-column: 1 / 6;
-    grid-row: 1 / span 1;
+h1 {
     font-family: Condiment;
-    font-size: 1.4em;
+    font-weight: bold;
+    font-size: 26px;
     color: #212121;
     text-align: center;
 }
-.title {
-    grid-column: 1 / 6;
-    grid-row: 2 / span 1;
+h2 {
     font-family: 'Merriweather Sans';
-    font-size: 1.2em;
-    color: #212121;
+    font-size: 18px;
+    color: #fff;
     text-align: center;
 }
-.before1 {
-    background-image: url(../images/Week2_GA/beach.png);
-    grid-column: 1 / span 4;
-    grid-row: 3 / span 2;
+.mainFooter a {
+	text-decoration: none;
+	color: #212121;
+}
+.center {
+	text-align: center;
 }
