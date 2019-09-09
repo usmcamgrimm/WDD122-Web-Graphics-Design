@@ -26,12 +26,15 @@ h2 {
     list-style: none;
     text-decoration: none;
 }
-.navbar-brand {
-    font-family: Condiment;
-    font-size: 26px;
-}
 .navbar a {
     font-family: 'Red Hat Display';
-    font-size: 22px;
+    font-size: 18px;
     color: #212121;
+}
+.dropdown-item {
+    font-family: 'Red Hat Display';
+    font-size: 18px;
+    color: #fff;
+    background-color: transparent;
+    border: none;
 }
