@@ -31,10 +31,10 @@ h2 {
     font-size: 18px;
     color: #212121;
 }
-.dropdown-item {
+.navbar-nav .open .dropdown-menu {
     font-family: 'Red Hat Display';
     font-size: 18px;
     color: #fff;
-    background-color: transparent;
+    background-color: #1976d2;
     border: none;
 }
