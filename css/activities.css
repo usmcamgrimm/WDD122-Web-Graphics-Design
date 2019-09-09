@@ -22,3 +22,16 @@ h2 {
 .center {
 	text-align: center;
 }
+.navbar {
+    list-style: none;
+    text-decoration: none;
+}
+.navbar-brand {
+    font-family: Condiment;
+    font-size: 26px;
+}
+.navbar a {
+    font-family: 'Red Hat Display';
+    font-size: 22px;
+    color: #212121;
+}
