@@ -15,6 +15,11 @@ h2 {
     color: #fff;
     text-align: center;
 }
+hr {
+    background-color: #bdbdbd;
+    box-shadow: 0 3px 6px #000;
+    width: 50%;
+}
 .mainFooter a {
 	text-decoration: none;
 	color: #212121;
