@@ -1,0 +1,45 @@
+/* Primary stylesheet for the Guided Activities */
+body {
+    background-color: #ffffff;
+}
+h1 {
+    font-family: Condiment;
+    font-weight: bold;
+    font-size: 26px;
+    color: #212121;
+    text-align: center;
+}
+h2 {
+    font-family: 'Merriweather Sans';
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+hr {
+    background-color: #bdbdbd;
+    box-shadow: 0 3px 6px #000;
+    width: 50%;
+}
+.mainFooter a {
+	text-decoration: none;
+	color: #212121;
+}
+.navbar {
+    list-style: none;
+    text-decoration: none;
+}
+.navbar a {
+    font-family: 'Red Hat Display';
+    font-size: 18px;
+    color: #212121;
+}
+.navbar-nav .open .dropdown-menu {
+    font-family: 'Red Hat Display';
+    font-size: 18px;
+    color: #fff;
+    background-color: #1976d2;
+    border: none;
+}
+.center {
+    text-align: center;
+}
