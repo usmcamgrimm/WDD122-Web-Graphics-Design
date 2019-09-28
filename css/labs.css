@@ -12,8 +12,19 @@ h1 {
 h2 {
     font-family: 'Merriweather Sans';
     font-size: 18px;
-    color: #fff;
+    color: #002c5f;
     text-align: center;
+}
+h2 a {
+    font-family: 'Merriweather Sans';
+    font-size: 18px;
+    color: #002c5f;
+    text-align: center;
+}
+h2 a:hover {
+    text-decoration: none;
+    color: #3fdb87;
+    text-shadow: 1px 1px 2px #030303;
 }
 hr {
     background-color: #bdbdbd;
