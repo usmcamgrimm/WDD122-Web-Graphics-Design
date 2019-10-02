@@ -1,0 +1,49 @@
+/* Primary styles for the Bootstrap activities */
+body {
+    background-color: #ffffff;
+}
+h1 {
+    font-family: Condiment;
+    font-weight: bold;
+    font-size: 26px;
+    color: #212121;
+    text-align: center;
+}
+h2 {
+    font-family: 'Merriweather Sans';
+    font-size: 18px;
+    color: #002c5f;
+    text-align: center;
+}
+h2 a {
+    font-family: 'Merriweather Sans';
+    font-size: 18px;
+    color: #002c5f;
+    text-align: center;
+}
+h2 a:hover {
+    text-decoration: none;
+    color: #3fdb87;
+    text-shadow: 1px 1px 2px #030303;
+}
+hr {
+    background-color: #bdbdbd;
+    box-shadow: 0 3px 6px #000;
+    width: 50%;
+}
+.mainFooter a {
+	text-decoration: none;
+	color: #212121;
+}
+.navbar {
+    list-style: none;
+    text-decoration: none;
+}
+.navbar a {
+    font-family: 'Red Hat Display';
+    font-size: 18px;
+    color: #212121;
+}
+.center {
+    text-align: center;
+}
