@@ -37,11 +37,21 @@ hr {
 .center {
     text-align: center;
 }
-.navbar-dark .navbar-nav .navbar-brand {
-    color: #424243;
+.navbar-dark .navbar-brand {
+    color: #030303;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+.navbar-dark .navbar-brand:hover {
+    color: #030303;
 }
 .navbar-dark .navbar-nav .nav-link {
     color: #ffffff;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #3fdb87;
+    font-size: 19px;
+    text-shadow: 1px 1px 5px #000000;
 }
 .btn {
     margin: 10px;
@@ -50,6 +60,15 @@ hr {
     background-color: #afafaf;
     color: #025fa1;
     box-shadow: 2px 2px 5px #000000;
+}
+li {
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    font-family: 'Red Hat Display';
+    color: #ffffff;
+    font-size: 16px;
 }
 .footer p a {
     color: #025fa1;
