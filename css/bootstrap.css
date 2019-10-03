@@ -1,12 +1,11 @@
 /* Primary styles for the Bootstrap activities */
 body {
-    background-color: #ffffff;
+    background-color: #212121;
 }
 h1 {
     font-family: Condiment;
-    font-weight: bold;
-    font-size: 26px;
-    color: #212121;
+    font-size: 2em;
+    color: #ffffff;
     text-align: center;
 }
 h2 {
@@ -27,23 +26,24 @@ h2 a:hover {
     text-shadow: 1px 1px 2px #030303;
 }
 hr {
-    background-color: #bdbdbd;
+    background-color: #3fdb87;
     box-shadow: 0 3px 6px #000;
-    width: 50%;
+    width: 30%;
 }
 .mainFooter a {
 	text-decoration: none;
 	color: #212121;
 }
-.navbar {
-    list-style: none;
-    text-decoration: none;
-}
 .navbar a {
     font-family: 'Red Hat Display';
     font-size: 18px;
-    color: #212121;
 }
 .center {
     text-align: center;
+}
+.btn {
+    margin: 10px;
+}
+.btn:hover {
+    box-shadow: 1px 1px 3px #000000;
 }
