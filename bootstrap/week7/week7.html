@@ -66,19 +66,160 @@
 		</div>
 		<hr>
 		<div class="container">
-            <table class="table table-hover">
+            <table class="table table-hover table-sm" style="background-color:#afafaf">
                 <thead class="thead-dark">
                     <tr>
-                        <th scope="col">Name</th>
-                        <th scope="col">Country</th>
-                        <th scope="col">City</th>
-                        <th scope="col">Website</th>
-                        <th scope="col">Sample</th>
+						<th scope="col">Week</th>
+                        <th scope="col">Opponent</th>
+                        <th scope="col">Stadium</th>
+                        <th scope="col">Result</th>
+                        <th scope="col">For</th>
+                        <th scope="col">Against</th>
                     </tr>
-                </thead>
-            </table>
+				</thead>
+				<tbody>
+					<tr>
+						<th scope="row">1</th>
+						<td>Chargers</td>
+						<td>Rokit Field</td>
+						<td>Loss</td>
+						<td>24</td>
+						<td>30</td>
+					</tr>
+					<tr>
+						<th scope="row">2</th>
+						<td>Titans</td>
+						<td>Nissan Stadium</td>
+						<td>Win</td>
+						<td>19</td>
+						<td>17</td>
+					</tr>
+					<tr>
+						<th scope="row">2</th>
+						<td>Falcons</td>
+						<td>Lucas Oil Stadium</td>
+						<td>Win</td>
+						<td>27</td>
+						<td>24</td>
+					</tr>
+					<tr>
+						<th scope="row">4</th>
+						<td>Raiders</td>
+						<td>Lucas Oil Stadium</td>
+						<td>Loss</td>
+						<td>31</td>
+						<td>24</td>
+					</tr>
+				</tbody>
+			</table>
 		</div>
+			<hr>
+		<div class="container center">
+			<form>
+				<div class="form-group row">
+					<div class="col-sm-3"></div>
+					<label for="week" class="col-sm-1 col-form-label">Week</label>
+					<div class="col-sm-4">
+						<input type="number" class="form-control" id="week" placeholder="Week #">
+					</div>
+				</div>
+				<div class="form-group row">
+					<div class="col-sm-3"></div>
+					<label for="teamSelect" class="col-sm-1 col-form-label">Opponent</label>
+					<div class="col-sm-4">
+						<select class="custom-select my-1 mr-sm-2" id="teamSelect">
+							<option selected>Pick a team:</option>
+							<option value="1">Arizona Cardinals</option>
+							<option value="2">Atlanta Falcons</option>
+							<option value="3">Baltimore Ravens</option>
+							<option value="4">Buffalo Bills</option>
+							<option value="5">Carolina Panthers</option>
+							<option value="6">Chicago Bears</option>
+							<option value="7">Cincinnati Bengals</option>
+							<option value="8">Dallas Cowboys</option>
+							<option value="9">Denver Broncos</option>
+							<option value="10">Detroit Lions</option>
+							<option value="11">Green Bay Packers</option>
+							<option value="12">Houston Texans</option>
+							<option value="13">Indianapolis Colts</option>
+							<option value="14">Jacksonville Jaguars</option>
+							<option value="15">Kansas City Chiefs</option>
+							<option value="16">Los Angeles Chargers</option>
+							<option value="17">Los Angeles Rams</option>
+							<option value="18">Miami Dolphins</option>
+							<option value="19">Minnesota Vikings</option>
+							<option value="20">New England Patriots</option>
+							<option value="21">New Orleans Saints</option>
+							<option value="22">New York Giants</option>
+							<option value="23">New York Jets</option>
+							<option value="24">Oakland Raiders</option>
+							<option value="25">Philadelphia Eagles</option>
+							<option value="26">Pittsburgh Steelers</option>
+							<option value="27">San Francisco 49ers</option>
+							<option value="28">Seattle Seahawks</option>
+							<option value="29">Tampa Bay Buccaneers</option>
+							<option value="30">Tennessee Titans</option>
+							<option value="31">Washington Redskins</option>
+						</select>
+					</div>
+				</div>
+				<div class="form-group row">
+					<div class="col-sm-3"></div>
+					<label for="Stadium" class="col-sm-1 col-form-label">Stadium</label>
+					<div class="col-sm-4">
+						<input type="stadium" class="form-control" id="stadium" placeholder="Stadium">
+					</div>
+				</div>
+				<fieldset class="form-group">
+					<div class="col-sm-3"></div>
+					<div class="row">
+						<div class="col-sm-3"></div>
+						<legend class="col-form-label col-sm-1 pt-0">Radios</legend>
+						<div class="col-sm-4">
+							<div class="form-check form-check-inline">
+								<input class="form-check-input" type="radio" name="gridRadios" id="result" value="option1"
+									checked>
+								<label class="form-check-label" for="result">
+									Win
+								</label>
+							</div>
+							<div class="form-check form-check-inline">
+								<input class="form-check-input" type="radio" name="gridRadios" id="result2" value="option2">
+								<label class="form-check-label" for="result2">
+									Loss
+								</label>
+							</div>
+							<div class="form-check form-check-inline">
+								<input class="form-check-input" type="radio" name="gridRadios" id="result3" value="option3">
+								<label class="form-check-label" for="result3">
+									Tie
+								</label>
+							</div>
+						</div>
+					</div>
+				</fieldset>
+				<div class="form-group row">
+					<div class="col-sm-3"></div>
+					<label for="pfor" class="col-sm-1 col-form-label">Points For:</label>
+					<div class="col-sm-4">
+						<input type="number" class="form-control" id="pfor" placeholder="Points for">
+					</div>
+				</div>
+				<div class="form-group row">
+					<div class="col-sm-3"></div>
+					<label for="pagainst" class="col-sm-1 col-form-label">Points Against:</label>
+					<div class="col-sm-4">
+						<input type="number" class="form-control" id="pagainst" placeholder="Points against">
+					</div>
+				</div>
+				<div class="form-group row">
+					<div class="col-sm-5 offset-sm-1">
+						<button type="submit" class="btn btn-primary">Submit</button>
+					</div>
+				</div>
+			</form>
 		</div>
+		<br><br>
 		<!-- footer -->
 		<footer class="footer">
 			<div class="container">
