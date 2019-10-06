@@ -70,9 +70,19 @@ li {
     color: #ffffff;
     font-size: 16px;
 }
+td,th {
+    font-family: 'Red Hat Display';
+}
+td {
+    font-size: 18px;
+    color: #030303;
+}
 .footer p a {
     color: #025fa1;
     text-decoration: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
 .col-form-label {
     color: #025fa1;
