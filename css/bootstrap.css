@@ -74,6 +74,12 @@ li {
     color: #025fa1;
     text-decoration: none;
 }
+.col-form-label {
+    color: #025fa1;
+}
+.form-check-label {
+    color: #025fa1;
+}
 @media screen and (min-width: 768px) {
     .footer {
         position: fixed;
