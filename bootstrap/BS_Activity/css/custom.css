@@ -7,6 +7,35 @@ section
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
+h1 {
+  font-family: 'Red Hat Display';
+  font-size: 1.6em;
+  font-weight: bold;
+  color: #030303;
+}
+h2 {
+  font-family: 'Red Hat Display';
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #030303;
+}
+h5 {
+  font-family: 'Red Hat Display';
+  color: #030303;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+h6 {
+  font-family: 'Red Hat Display';
+  color: #030303;
+  text-decoration: underline;
+}
+p {
+  font-family: Exo;
+}
+.lead {
+  font-size: 18px;
+}
 .lnr 
 {
   display: inline-block;
