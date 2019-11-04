@@ -69,15 +69,19 @@ hr {
 }
 #activityBox {
 	height: 50%;
-	width: 20%;
+	width: 12%;
 }
 #labBox {
 	height: 50%;
-	width: 20%;
+	width: 12%;
 }
 #projectsBox {
 	height: 50%;
-	width: 20%;
+	width: 12%;
+}
+#inkscapeBox {
+	height: 50%;
+	width: 12%;
 }
 #quoteContainer {
 	text-align: center;

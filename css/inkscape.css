@@ -1,0 +1,102 @@
+/* Primary styles for the Bootstrap activities */
+body {
+    background-color: #fefefe;
+}
+h1 {
+    font-family: Condiment;
+    font-size: 2em;
+    color: #212121;
+    text-align: center;
+}
+h2 {
+    font-family: 'Merriweather Sans';
+    font-size: 18px;
+    color: #025fa1;
+    text-align: center;
+    text-decoration: underline;
+}
+p {
+    font-family: 'Red Hat Display';
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+}
+hr {
+    background-color: #3fdb87;
+    box-shadow: 0 3px 6px #000;
+    width: 30%;
+}
+.mainFooter a {
+	text-decoration: none;
+	color: #212121;
+}
+.navbar a {
+    font-family: 'Red Hat Display';
+    font-size: 18px;
+}
+.center {
+    text-align: center;
+}
+.navbar-dark .navbar-brand {
+    color: #030303;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+.navbar-dark .navbar-brand:hover {
+    color: #030303;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #3fdb87;
+    font-size: 19px;
+    text-shadow: 1px 1px 5px #000000;
+}
+.btn {
+    margin: 10px;
+}
+.btn:hover {
+    background-color: #afafaf;
+    color: #025fa1;
+    box-shadow: 2px 2px 5px #000000;
+}
+li {
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    font-family: 'Red Hat Display';
+    color: #ffffff;
+    font-size: 16px;
+}
+td,th {
+    font-family: 'Red Hat Display';
+}
+td {
+    font-size: 18px;
+    color: #030303;
+}
+.footer p a {
+    color: #025fa1;
+    text-decoration: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.col-form-label {
+    color: #025fa1;
+}
+.form-check-label {
+    color: #025fa1;
+}
+@media screen and (min-width: 768px) {
+    .footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 1rem;
+        text-align: center;
+    }
+}
