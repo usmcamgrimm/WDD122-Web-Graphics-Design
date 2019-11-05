@@ -1,8 +1,11 @@
 /* Primary styles for the Bootstrap activities */
 body {
-    background-color: #fefefe;
+    background: #ffffff;
     margin-top: 75px;
     height: 100%vh;
+}
+.introduction {
+    background: #ffffff;
 }
 h1 {
     font-family: Condiment;
@@ -17,7 +20,7 @@ p {
     text-align: center;
 }
 hr {
-    background-color: #3fdb87;
+    background-color: #d50000;
     box-shadow: 0 3px 6px #000;
     width: 30%;
 }
@@ -48,13 +51,13 @@ hr {
     font-size: 19px;
     text-shadow: 1px 1px 5px #000000;
 }
+/*
+.navbar-dark .navbar-nav .navbar-toggler-icon {
+    color: #030303;
+}
+*/
 .btn {
     margin: 10px;
-}
-.btn:hover {
-    background-color: #afafaf;
-    color: #025fa1;
-    box-shadow: 2px 2px 5px #000000;
 }
 .footer {
     position: fixed;
