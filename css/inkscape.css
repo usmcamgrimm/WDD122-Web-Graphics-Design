@@ -4,8 +4,12 @@ body {
     margin-top: 75px;
     height: 100%vh;
 }
-.introduction {
+#introduction {
     background: #ffffff;
+    height: 100vh;
+}
+#infoCoffee {
+    height: 100vh;
 }
 h1 {
     font-family: Condiment;
@@ -21,7 +25,7 @@ p {
 }
 hr {
     background-color: #d50000;
-    box-shadow: 0 3px 6px #000;
+    box-shadow: 0 3px 6px #241c1c;
     width: 30%;
 }
 .mainFooter a {
@@ -41,7 +45,7 @@ hr {
     font-weight: bold;
 }
 .navbar-dark .navbar-brand:hover {
-    color: #030303;
+    color: #241c1c;
 }
 .navbar-dark .navbar-nav .nav-link {
     color: #ffffff;
@@ -49,7 +53,7 @@ hr {
 .navbar-dark .navbar-nav .nav-link:hover {
     color: #030303;
     font-size: 19px;
-    text-shadow: 1px 1px 5px #000000;
+    text-shadow: 1px 1px 5px #241c1c;
 }
 /*
 .navbar-dark .navbar-nav .navbar-toggler-icon {
@@ -60,7 +64,7 @@ hr {
     margin: 10px;
 }
 .footer {
-    position: fixed;
+    position: absolute;
     bottom: 0;
     width: 100%;
     padding: 1rem;
