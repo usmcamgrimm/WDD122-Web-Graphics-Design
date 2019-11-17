@@ -42,7 +42,7 @@ hr {
 .navbar a {
     font-family: 'Red Hat Display';
     font-size: 18px;
-    color: #70ce37;
+    color: #1b1a1b;
 }
 .navbar-nav .open .dropdown-menu {
     font-family: 'Red Hat Display';
@@ -56,4 +56,21 @@ hr {
 #topCont {
     margin-top: 20px;
     height: 75vh;
+}
+/* Form Controls */
+#formSection {
+    background-color: #01a9da;
+    margin-top: 3em;
+    margin-bottom: 5em;
+    border-radius: 8px;
+}
+#formSection h2 {
+    font-family: 'Red Hat Display';
+    color: #1b1a1b;
+    font-size: 22px;
+    margin-top: 10px;
+}
+.btn {
+    background-color: #70ce37;
+    border: none;
 }
