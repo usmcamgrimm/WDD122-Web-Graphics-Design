@@ -2,6 +2,7 @@
 body {
     background-color: #f9faf8;
     font-size: 16px;
+    font-family: 'Red Hat Display';
 }
 h1 {
     font-family: 'Red Hat Display';
@@ -57,6 +58,21 @@ hr {
     margin-top: 20px;
     height: 75vh;
 }
+.navbar a {
+    font-family: 'Red Hat Display';
+    font-size: 18px;
+}
+.navbar-dark .navbar-brand {
+    color: #ffffff;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #70ce37;
+    font-size: 19px;
+    text-shadow: 1px 1px 5px #000000;
+}
 /* Form Controls */
 #formSection {
     background-color: #01a9da;
@@ -73,4 +89,13 @@ hr {
 .btn {
     background-color: #70ce37;
     border: none;
+    font-family: 'Red Hat Display';
+    color: #1b1a1b;
+}
+#searchBtn {
+    font-size: 1.1em;
+}
+.btn:hover {
+    background-color: #70ce37;
+    box-shadow: 0px 2px 8px #030303;
 }

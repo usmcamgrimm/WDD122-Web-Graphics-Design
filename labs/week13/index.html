@@ -30,16 +30,29 @@
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarNavDropdown">
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						Links
-						</a>
-						<span class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-							<a class="dropdown-item" href="../../index.html">Home</a>
-							<a class="dropdown-item" href="../../completedWork.html#activities">Guided Activities</a>
-							<a class="dropdown-item" href="../../completedWork.html#labs">Labs</a>
-							<a class="dropdown-item" href="../../completedWork.html#bootstrap">Bootstrap</a>
-						</span>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					WDD122 Links
+					</a>
+					<span class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+						<a class="dropdown-item" href="../../index.html">Home</a>
+						<a class="dropdown-item" href="../../completedWork.html#activities">Guided Activities</a>
+						<a class="dropdown-item" href="../../completedWork.html#labs">Labs</a>
+						<a class="dropdown-item" href="../../completedWork.html#bootstrap">Bootstrap</a>
+					</span>
+				</li>
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Shelter Info</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Adoption</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Donations</a>
 					</li>
 				</ul>
 			</div>
@@ -82,13 +95,22 @@
 									<option value="5">Bird</option>
 								</select>
 							</div>
-							<button type="submit" class="btn btn-primary col-md-12">Search</button>
+							<button type="submit" class="btn btn-primary col-md-12" id="searchBtn">Search</button>
 						</div>
+					</form>
+					<br>
+					<h2>Sign Up For Our Newsletter</h2>
+					<p>
+						Every week we'll send pet adoption and shelter news, as well as stories!
+					</p>
+					<form class="form-inline">
+						<label class="sr-only" for="emailAdd">Email Address</label>
+						<input type="email" class="form-control col-md-10 mb-2 mr-sm-2" id="emailAdd" placeholder="email address">
+						<button type="submit" class="btn btn-primary mb-2">Submit</button>
 					</form>
 				</div>
             </div>
         </div>
-		<br>
 		<!-- footer -->
 		<footer class="mainFooter">
             <p style="font-weight:bold;text-align:center">
