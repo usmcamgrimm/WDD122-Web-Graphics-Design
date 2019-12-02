@@ -1,0 +1,80 @@
+/* Primary styles for the final project */
+body {
+    background: #ffffff;
+    margin-top: 75px;
+    height: 100%vh;
+}
+h1 {
+    font-family: Condiment;
+    font-size: 2.5em;
+    color: #212121;
+    text-align: center;
+}
+#introduction {
+    background: #ffffff;
+    height: 100vh;
+}
+#brsrkBean {
+    margin-top: 50px;
+}
+#infoCoffee {
+    height: 100vh;
+}
+#brsrkBean h1 {
+    font-family: Cambay;
+    font-size: ;
+    color: #d50000;
+}
+p {
+    font-family: 'Red Hat Display';
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+}
+hr {
+    background-color: #d50000;
+    box-shadow: 0 3px 6px #241c1c;
+    width: 30%;
+}
+.mainFooter a {
+	text-decoration: none;
+	color: #212121;
+}
+.navbar a {
+    font-family: 'Red Hat Display';
+    font-size: 18px;
+}
+.center {
+    text-align: center;
+}
+.navbar-dark .navbar-brand {
+    color: #030303;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+.navbar-dark .navbar-brand:hover {
+    color: #241c1c;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #030303;
+    font-size: 19px;
+    text-shadow: 1px 1px 5px #241c1c;
+}
+.btn {
+    margin: 10px;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+}
+.footer p {
+    color: #030303;
+    font-family: Exo;
+    font-size: 16px;
+}
