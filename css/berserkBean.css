@@ -4,8 +4,12 @@ body {
     margin-top: 75px;
     height: 100%vh;
 }
+@font-face {
+    font-family: Viking_Hell;
+    src: url(../fonts/Viking_Hell.ttf);
+}
 h1 {
-    font-family: Condiment;
+    font-family: Viking_Hell;
     font-size: 2.5em;
     color: #212121;
     text-align: center;
