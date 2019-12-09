@@ -1,4 +1,9 @@
 /* Add section for FAB Menu */
+@media screen and (max-width: 1023px) {
+    .linkMenu {
+        display: none;
+    }
+}
 @media screen and (min-width: 1024px) {
     .float {
         width: 60px;
