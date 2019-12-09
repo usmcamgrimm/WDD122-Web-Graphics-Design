@@ -1,20 +1,16 @@
 /* Primary styles for the final project */
 body {
-    background: #ffffff;
+    background: #000000;
+    /* background-image: url(../images/final/bgroundCoffee.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 50%; */
     height: 100%vh;
 }
 @font-face {
     font-family: Viking_Hell;
     src: url(../fonts/Viking_Hell.ttf);
-}
-h1 {
-    font-family: Viking_Hell;
-    font-size: 2.5em;
-    text-align: center;
-    color: #d50000;  /* fallback for old browsers */
-    color: -webkit-linear-gradient(to right, #212121, #d50000);  /* Chrome 10-25, Safari 5.1-6 */
-    color: linear-gradient(to right, #212121, #d50000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 }
 #introduction {
     background: #ffffff;
@@ -69,8 +65,18 @@ hr {
     font-size: 19px;
     text-shadow: 1px 1px 5px #241c1c;
 }
-.btn {
-    margin: 10px;
+.btn-primary {
+    color: #c0c0c0;
+    background: #000000;
+    border-color: #000000;
+    font-family: Viking_Hell;
+    font-size: 2.6em;
+    padding: 10px 20px 10px 20px;
+}
+.btn-primary:hover {
+    background: #000000;
+    border-color: #000000;
+    color: #d50000;
 }
 .footer {
     position: absolute;
@@ -80,11 +86,16 @@ hr {
     text-align: center;
 }
 .footer p {
-    color: #030303;
+    color: #c0c0c0;
     font-family: Exo;
     font-size: 16px;
 }
 .jumbotron {
     background: #ffffff;
     margin: 50px auto;
+}
+@media screen and (min-width: 1024px) {
+    .navbar-dark {
+        display: none;
+    }
 }
