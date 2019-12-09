@@ -1,0 +1,111 @@
+/* Add section for FAB Menu */
+@media screen and (min-width: 1024px) {
+    .float {
+        width: 60px;
+        height: 60px;
+        background-color: #d50000;
+        border-radius: 50%;
+        font-size: 32px;
+        color: #030303;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 6px;
+        position: fixed;
+        right: 48px;
+        bottom: 20px;
+        z-index: 1000;
+    }
+
+    .float:hover {
+        color: #030303;
+    }
+
+    ul {
+        position: fixed;
+        right: 40px;
+        padding-bottom: 25px;
+        bottom: 40px;
+        z-index: 100;
+    }
+
+    ul li {
+        list-style: none;
+        margin-bottom: 10px;
+    }
+
+    ul li a {
+        font-family: 'Condiment';
+        font-size: 19px;
+        background-color: #d50000;
+        color: #030303;
+        border-radius: 28px;
+        text-align: center;
+        padding: 10px;
+        display: block;
+    }
+
+    ul li a:hover {
+        transform: scale(1.10);
+        color: #030303;
+        text-decoration: none;
+    }
+
+    ul:hover {
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+
+    .my-float {
+        font-size: 22px;
+        margin-top: 10px;
+    }
+
+    a#menu-share+ul {
+        visibility: hidden;
+    }
+
+    a#menu-share:hover+ul {
+        visibility: visible;
+        animation: scale-in 0.2s;
+    }
+
+    a#menu-share i {
+        animation: rotate-in 0.5s;
+    }
+
+    a#menu-share:hover>i {
+        animation: rotate-out 0.2s;
+    }
+
+    @keyframes scale-in {
+        from {
+            transform: scale(0);
+            opacity: 0;
+        }
+
+        to {
+            transform: scale(1);
+            opacity: 1;
+        }
+    }
+
+    @keyframes rotate-in {
+        from {
+            transform: rotate(0deg);
+        }
+
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+    @keyframes rotate-out {
+        from {
+            transform: rotate(360deg);
+        }
+
+        to {
+            transform: rotate(0deg);
+        }
+    }
+}
