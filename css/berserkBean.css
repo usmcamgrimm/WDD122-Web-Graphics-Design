@@ -1,31 +1,12 @@
 /* Primary styles for the final project */
 body {
     background: #000000;
-    /* background-image: url(../images/final/bgroundCoffee.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: 50%; */
     height: 100%vh;
+    margin-top: 100px;
 }
 @font-face {
     font-family: Viking_Hell;
     src: url(../fonts/Viking_Hell.ttf);
-}
-#introduction {
-    background: #ffffff;
-    height: 100vh;
-}
-#brsrkBean {
-    margin-top: 50px;
-}
-#infoCoffee {
-    height: 100vh;
-}
-#brsrkBean h1 {
-    font-family: Cambay;
-    font-size: ;
-    color: #d50000;
 }
 p {
     font-family: 'Red Hat Display';
