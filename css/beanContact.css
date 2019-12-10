@@ -1,0 +1,39 @@
+#aboutBanner {
+    margin-top: 40px;
+}
+h1 {
+    font-family: Viking_Hell;
+    font-size: 3.5em;
+    text-align: center;
+    color: #d50000;
+    margin-top: 80px;
+}
+h2 {
+    font-family: Exo;
+    font-size: 24px;
+    color: #d50000;
+}
+h3 {
+    font-family: Exo;
+    font-size: 20px;
+    color: #fefefe;
+}
+.img-fluid {
+    margin-top: 10px;
+}
+hr {
+    width: 45%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+}
+p {
+    font-family: 'Red Hat Display';
+    font-size: 16px;
+    color: #fefefe;
+}
+@media screen and (max-width: 1023px) {
+    body {
+        margin-top: 80px;
+    }
+}
